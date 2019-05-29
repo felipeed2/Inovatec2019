@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Novo Anúncio</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Heebo:500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <nav>
+      <a href="index.html"><img src="img/LogoIcon.png" class="logoIcon"></a>
+      <a href="Cadastro.html"><i class="far fa-user"></i>&ensp;Cadastre-se</a>
+      <a href="AnuncioNovo.html"><i class="far fa-file-alt"></i>&ensp;Novo Anúncio</a>
+      <a href="ListAnuncio.html"><i class="fas fa-list-ul"></i>&ensp;Ver Anúncios</a>
+    </nav>
+    <div class="container">
+      <h1>Novo Anúncio</h1>
+      <hr><br>
+      <form>
+        <div class="row">
+          <div class="col-25">
+            <label for="CNPJ">CNPJ</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="CNPJ" name="CNPJ" placeholder="##.###.###/####-##" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="telefone">Telefone para contato</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="telefone" name="telefone" placeholder="(##)#####-####" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="Email">Email para contato</label>
+          </div>
+          <div class="col-75">
+            <input type="email" id="Email" name="Email" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="country">Tipo de descarte</label>
+          </div>
+          <div class="col-75">
+            <select id="country" name="country">
+            <option value="Vidro">Vidro</option>
+            <option value="Plástico">Plástico</option>
+            <option value="Madeira">Madeira</option>
+            <option value="Aço">Aço</option>
+            <option value="Eletrônicos">Eletrônicos</option>
+            <option value="Médico">Médico</option>
+            <option value="Químico">Químico</option>
+          </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Descrição do descarte</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="Escreva algo..." style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Cadastrar  ">
+        </div>
+      </form>
+    </div>
+    <footer>
+      <section>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </section>
+    </footer>
+  </body>
+</html>

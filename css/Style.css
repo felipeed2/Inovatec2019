@@ -96,12 +96,12 @@ footer{
 }
 
 @media screen and (max-width: 600px) {
-    nav a{
+    /*nav a{
       display: inline-block;
       width: 90%;
       color: rgba(255, 255, 255, 0.8);
       padding: 10px 0px;
-    }
+    }*/
 
     section i{
       float: none;
